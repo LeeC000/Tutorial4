@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.017" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.011" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\张雅哲\AppData\Local\Temp\surefire5471167973978176647\surefirebooter16714459507991504138.jar C:\Users\张雅哲\AppData\Local\Temp\surefire5471167973978176647 2023-09-20T10-54-13_490-jvmRun1 surefire4269695304147848489tmp surefire_07499862322295339908tmp"/>
+    <property name="sun.java.command" value="C:\Users\张雅哲\AppData\Local\Temp\surefire515297169285741517\surefirebooter12172522329151077896.jar C:\Users\张雅哲\AppData\Local\Temp\surefire515297169285741517 2023-09-20T10-58-48_127-jvmRun1 surefire8202997643930590086tmp surefire_05469212256547927538tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\playground\3_1\tut4-1\tutorial4\target\test-classes;E:\playground\3_1\tut4-1\tutorial4\target\classes;C:\Users\张雅哲\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\张雅哲\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\张雅哲\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\张雅哲\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\张雅哲\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\张雅哲\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\张雅哲\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\张雅哲\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\张雅哲\AppData\Local\Temp\surefire5471167973978176647\surefirebooter16714459507991504138.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\张雅哲\AppData\Local\Temp\surefire515297169285741517\surefirebooter12172522329151077896.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
@@ -58,10 +58,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testSubtract" classname="org.example.CalcTest" time="0.013">
-    <failure message="expected: &lt;2&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <8>
-	at org.example.CalcTest.testSubtract(CalcTest.java:15)
-]]></failure>
-  </testcase>
-  <testcase name="testAddition" classname="org.example.CalcTest" time="0.001"/>
+  <testcase name="testSubtract" classname="org.example.CalcTest" time="0.006"/>
+  <testcase name="testAddition" classname="org.example.CalcTest" time="0"/>
 </testsuite>
